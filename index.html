@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -21,6 +21,7 @@
     <nav id="nav" aria-label="Main">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -58,6 +59,12 @@
     </ul>
   </div>
 
+
+  <section class="statement" id="statement" aria-label="Personal statement">
+    <div class="wrap">
+      <p>I'm an accounting student at Rutgers Business School who turns tax and government financial data into clear, accurate information that people can act on.</p>
+    </div>
+  </section>
 
   <section class="band about-band" id="about"><div class="wrap">
     <h2>About</h2>
@@ -136,8 +143,49 @@
     </div>
   </div></section>
 
+  <section class="band projects-band" id="projects"><div class="wrap">
+    <h2>Projects</h2>
+    <div class="projects">
+      <article class="project">
+        <p class="kind">Government finance &middot; In progress</p>
+        <h3>Citizen-Centric Report: City of Phoenix</h3>
+        <p>A plain-language report on the City of Phoenix's 2025 budget for the AGA Government Finance Case Challenge. Our 3-student team uses public data to show residents how tax dollars fund city services.</p>
+        <ul class="stack"><li>Budget analysis</li><li>Data storytelling</li><li>Excel</li></ul>
+        <div class="proj-links">
+          <!-- TODO: replace the # links below with your real report / slides / code URLs -->
+          <a href="#" target="_blank" rel="noopener">View report</a>
+        </div>
+      </article>
+      <article class="project">
+        <p class="kind">Community service &middot; 2026</p>
+        <h3>VITA Free Tax Preparation</h3>
+        <p>Prepared and filed federal and state returns for low-income families through the IRS VITA program, finding eligible credits and keeping every filing accurate and compliant.</p>
+        <ul class="stack"><li>Tax software</li><li>IRS rules</li><li>Client service</li></ul>
+        <div class="proj-links">
+          <a href="https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers" target="_blank" rel="noopener">About the program</a>
+        </div>
+      </article>
+      <article class="project">
+        <p class="kind">Engineering and outreach &middot; 2023 to 2025</p>
+        <h3>DIY STEM Lab Equipment</h3>
+        <p>Designed and 3D-printed low-cost microscopes, spectrometers, and centrifuges with Lab R.E.D, then donated them to schools so more students could run hands-on science.</p>
+        <ul class="stack"><li>3D printing</li><li>Design</li><li>Fundraising</li></ul>
+        <div class="proj-links">
+          <!-- TODO: replace with a link to your design files (GitHub, Thingiverse, Google Drive, etc.) -->
+          <a href="https://github.com/YOUR-USERNAME/YOUR-REPO" target="_blank" rel="noopener">View design files</a>
+        </div>
+      </article>
+    </div>
+  </div></section>
+
   <section class="band skills-band" id="skills"><div class="wrap">
     <h2>Skills</h2>
+    <ul class="key-skills" aria-label="Key skills">
+      <li>Tax preparation</li>
+      <li>Government budget analysis</li>
+      <li>Excel</li>
+      <li>Client communication</li>
+    </ul>
     <div class="skills">
       <div>
         <h3>Accounting and tax</h3>
@@ -203,6 +251,6 @@
   <a href="#top">Back to top</a>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js?v=4"></script>
 </body>
 </html>
